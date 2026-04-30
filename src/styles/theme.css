@@ -126,11 +126,17 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', 'Manrope', sans-serif;
+    font-family: 'Poppins', 'Inter', sans-serif;
+    scroll-behavior: smooth;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   /**
